@@ -2131,3 +2131,280 @@ nav .line {
     margin-top: 350px;
   }
 }
+.special {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 98px;
+}
+.special h1 {
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 200;
+  font-family: ExtraCondense;
+}
+.special .topSpecial {
+  display: flex;
+  padding-bottom: 60px;
+  padding-top: 35px;
+}
+.special .topSpecial .image {
+  width: 199px;
+  height: 287px;
+  background-image: url(../images/special-offer-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.special .topSpecial .info {
+  width: 290px;
+  height: 287px;
+  padding-left: 20px;
+}
+.special .topSpecial .info .price {
+  position: absolute;
+  margin-left: 190px;
+  margin-top: -43px;
+  color: #FF7D38;
+  font-family: ExtraCondense;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.special .topSpecial .info .text {
+  font-size: 16px;
+  font-family: GillSans;
+  padding-bottom: 70px;
+}
+.special .topSpecial .info .learnbtn {
+  width: 133px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #79ADDC;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-family: GillSans;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.special .topSpecial2 {
+  display: flex;
+  padding-bottom: 100px;
+}
+.special .topSpecial2 .image2 {
+  width: 199px;
+  height: 287px;
+  background-image: url(../images/special-offer-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.special .topSpecial2 .info {
+  width: 290px;
+  height: 287px;
+  padding-left: 20px;
+}
+.special .topSpecial2 .info .price {
+  position: absolute;
+  margin-left: 205px;
+  margin-top: -43px;
+  color: #FF7D38;
+  font-family: ExtraCondense;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.special .topSpecial2 .info .text {
+  font-size: 16px;
+  font-family: GillSans;
+  padding-bottom: 70px;
+}
+.special .topSpecial2 .info .learnbtn {
+  width: 133px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #79ADDC;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-family: GillSans;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 980px) {
+  .special {
+    padding: 10px;
+    margin-top: 100px;
+  }
+  .special .topSpecial2 .info .price {
+    margin-left: 200px;
+  }
+  .special .topSpecial .info .price {
+    margin-left: 180px;
+  }
+}
+.blog {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 98px;
+}
+.blog h1 {
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  display: inline-block;
+  padding-right: 30px;
+  font-size: 30px;
+  font-weight: 200;
+  font-family: ExtraCondense;
+}
+.blog .blogPost {
+  display: flex;
+  padding-top: 20px;
+}
+.blog .blogPost .date {
+  width: 60px;
+  height: 60px;
+  background-color: #79ADDC;
+  margin-right: 20px;
+}
+.blog .blogPost .date .dateText {
+  color: white;
+  font-size: 22px;
+  font-family: GillSans;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 10px;
+}
+.blog .blogPost .date .dateText .month {
+  font-size: 12px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+.blog .blogPost .picture {
+  width: 900px;
+  height: 259px;
+  background-image: url(../images/blog.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.blog .blogText {
+  width: 380px;
+  margin-left: 80px;
+  padding-top: 20px;
+}
+.blog .blogText .blackTxt {
+  font-size: 15px;
+  font-family: GillSans;
+}
+.blog .blogText .blueTxt {
+  color: #79ADDC;
+  font-size: 13px;
+}
+.blog .blogText .blueTxt2 {
+  color: #79ADDC;
+  font-size: 13px;
+  padding-bottom: 120px;
+}
+
+@media only screen and (max-width: 1060px) {
+  .blog {
+    padding: 20px;
+    margin-top: 100px;
+  }
+  .blog .blogText {
+    margin-left: 45px;
+  }
+}
+.contact {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 98px;
+}
+.contact h1 {
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  display: inline-block;
+  padding-right: 30px;
+  font-size: 30px;
+  font-weight: 200;
+  font-family: ExtraCondense;
+}
+.contact .fullSide {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+.contact .fullSide .leftSide .map {
+  width: 400px;
+  height: 442px;
+  background-image: url(../images/mapp.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact .fullSide .leftSide .contactInfo {
+  font-size: 18px;
+  font-family: GillSans;
+  padding-top: 20px;
+}
+.contact .fullSide .rightSide {
+  padding-left: 51px;
+}
+.contact .fullSide .rightSide .input {
+  border: none;
+  background-color: #F5F5F5;
+  width: 529px;
+  height: 60px;
+  margin-bottom: 21px;
+}
+.contact .fullSide .rightSide ::placeholder {
+  font-family: GillSans;
+  font-size: 16px;
+  padding-left: 20px;
+  position: absolute;
+  padding-top: 20px;
+}
+.contact .fullSide .rightSide .inputMes {
+  border: none;
+  background-color: #F5F5F5;
+  width: 529px;
+  height: 199px;
+  margin-bottom: 20px;
+}
+.contact .fullSide .rightSide .messageBtn {
+  width: 168px;
+  height: 60px;
+  background-color: #79ADDC;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-family: GillSans;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1060px) {
+  .contact {
+    padding: 10px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .contact .fullSide {
+    flex-direction: column;
+  }
+  .contact .fullSide .leftSide .map {
+    margin: 0 auto;
+  }
+  .contact .fullSide .rightSide {
+    padding-left: 0;
+  }
+  .contact .fullSide .rightSide .input {
+    width: 400px;
+  }
+  .contact .fullSide .rightSide .inputMes {
+    width: 400px;
+  }
+}
